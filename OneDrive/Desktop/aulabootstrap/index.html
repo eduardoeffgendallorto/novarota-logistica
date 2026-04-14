@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+    .equipe-card, .equipe-texto, .equipe-foto img {
+        transition: all 0.6s ease-in-out !important;
+    }
+</style>
+    <link rel="stylesheet" href="style.css">
+    <title>Eduardo Effgen | Engenharia de Software e Projetos</title>
+<meta name="description" content="A NovaRota oferece soluções inteligentes em logística, armazenagem e transporte rodoviário com monitoramento 24h.">
+<meta name="keywords" content="logística, transporte, frete, armazenagem, caminhão, entrega expressa">
+</head>
+<body style="background-color: #e4e4e4;">
+
+    
+  <header class="header" style="position: fixed; top: 0; width: 100%; z-index: 9999; background-color: #f8f9fa; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <div class="container-fluid py-2 mt-0 mb-0" style="background-color: #FF6600;">
+            <div class="row text-center align-items-center"> 
+                <div class="col-md-4 px-4">
+                    <p class="m-0 text-white fw-bold">Seg a Sex: 07h às 17h</p>
+                </div>
+                <div class="col-md-4 px-4">
+                    <p class="m-0 text-white fw-bold">(99) 99999-9999</p>
+                </div>
+                <div class="col-md-4 px-4">
+                    <p class="m-0 text-white fw-bold">seuemail@email.com</p>
+                </div>
+            </div>
+        </div>
+
+<div class="w-100 text-center py-1" style="background: #333; color: #fff; font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+    Projeto Experimental de Portfólio — Empresa Fictícia
+</div>
+
+        <section>
+    <nav id="meuCabecalho" class="navbar navbar-expand-lg navbar-light py-0 sticky-lg-top" style="transition: 0.4s; background-color: #f8f9fa;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img id="minhaLogo" src="imgs/logo_rota.svg" alt="Logo NovaRota" style="height: 95px; width: 100px; object-fit: contain; transition: 0.4s;" class="py-2">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="menuNavegacao" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menuNavegacao">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobrenos">Quem somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</section>
+    </header>
+
+    <main class="container bg-white shadow-lg p-0 mb-5" style="border-radius: 10px; overflow: hidden; margin-top: 170px;">
+        
+        <div class="container-fluid mt-0 px-0"> 
+            <div class="row align-items-stretch g-0">
+                <div class="col-md-6 d-flex flex-column justify-content-center p-5" data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="fw-bold">A ROTA MAIS SEGURA PARA O FRESCOR DO SEU PRODUTO</h2>
+                    <p class="lead fw-bold">Logística com Tecnologia</p>
+                    <div>
+    <a href="#contato" class="btn btn-novarota d-inline-block px-4 py-2" style="background-color: #FF6600; color: white;">Entre em Contato</a>
+</div>
+                </div>
+                <div class="col-md-6 mb-0" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="imgs/foto_equipe.png" alt="imagem da Equipe" class="img-fluid w-100" style="object-fit: cover; min-height: 600px;">
+                </div>
+            </div>
+        </div>
+
+        <section id="sobrenos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Galpão NovaRota" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6 px-lg-5" data-aos="fade-left">
+                        <h6 class="text-uppercase fw-bold mb-2" style="color: #FF6600; letter-spacing: 2px;">Quem Somos</h6>
+                        <h2 class="fw-bold mb-4" style="color: #333;">NovaRota: Uma História de Sucesso</h2>
+                        <p class="text-muted mb-4" style="line-height: 1.8;">
+                            Em Dezembro de 1999 nasce a NovaRota, uma empresa focada em soluções logísticas inteligentes e eficiência operacional. Ao completar 27 anos de atividades no mercado, a NovaRota demonstra sua solidez ao superar crises e os constantes desafios impostos pela economia brasileira nestas décadas.
+                        </p>
+                        <ul class="list-unstyled mb-0 text-muted">
+                            <li class="mb-2">✔️ Tradição e Confiança no transporte</li>
+                            <li class="mb-2">✔️ Soluções logísticas inteligentes</li>
+                            <li class="mb-2">✔️ Foco total na satisfação do cliente</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid p-0 position-relative">
+            <video class="w-100 d-block" autoplay loop muted playsinline style="max-height: 70vh; object-fit: cover;">
+                <source src="videos/video_do_galpao (1).mp4" type="video/mp4">
+                Seu navegador não suporta a tag de vídeo.
+            </video>
+            <div class="position-absolute top-50 start-50 translate-middle text-center w-100 px-3" data-aos="zoom-in" data-aos-duration="1000">
+                <h1 class="display-3 text-white fw-bold" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.8);">
+                    Conheça a Empresa NovaRota
+                </h1>
+                <p class="fs-4 text-white mb-0" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.8);">
+                    A parceria estratégica que faltava para os seus melhores resultados.
+                </p>
+            </div>
+        </div>
+
+        <section class="py-5" style="background-color: #f4f6f9; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+            <div class="container py-5" style="max-width: 900px;">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <h6 class="fw-bold text-uppercase mb-2" style="color: #f27a24; letter-spacing: 2px; font-size: 0.85rem;">
+                        Especificações Técnicas
+                    </h6>
+                    <h2 class="fw-bolder" style="color: #0f172a; font-size: 2.2rem; letter-spacing: -0.5px;">
+                        DETALHES DO IMÓVEL
+                    </h2>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100 border-0 text-center p-4" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <div class="d-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px; background-color: #fdf2e9; color: #f27a24; border-radius: 12px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
+                                </div>
+                                <h6 class="text-uppercase fw-bold mb-2" style="color: #0f172a; font-size: 0.8rem; letter-spacing: 1.5px;">Área Total</h6>
+                                <h3 class="fw-bolder mb-2" style="color: #0f172a; font-size: 2.2rem;">7.200 m²</h3>
+                                <p class="text-muted mb-0" style="font-size: 0.9rem;">120m × 60m</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100 border-0 text-center p-4" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <div class="d-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px; background-color: #eff6ff; color: #3b82f6; border-radius: 12px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+                                </div>
+                                <h6 class="text-uppercase fw-bold mb-2" style="color: #0f172a; font-size: 0.8rem; letter-spacing: 1.5px;">Pé Direito</h6>
+                                <h3 class="fw-bolder mb-2" style="color: #0f172a; font-size: 2.2rem;">10 metros</h3>
+                                <p class="text-muted mb-0" style="font-size: 0.9rem;">Ideal para operações logísticas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100 border-0 text-center p-4" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <div class="d-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px; background-color: #fdf2e9; color: #f27a24; border-radius: 12px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 12 12 17 22 12"></polyline><polyline points="2 17 12 22 22 17"></polyline></svg>
+                                </div>
+                                <h6 class="text-uppercase fw-bold mb-2" style="color: #0f172a; font-size: 0.8rem; letter-spacing: 1.5px;">Piso</h6>
+                                <h3 class="fw-bolder mb-2" style="color: #0f172a; font-size: 2.2rem;">Paver</h3>
+                                <p class="text-muted mb-0" style="font-size: 0.9rem;">Capacidade 5 TON/M²</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card h-100 border-0 text-center p-4" style="border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                                <div class="d-flex align-items-center justify-content-center mb-3" style="width: 50px; height: 50px; background-color: #fdf2e9; color: #f27a24; border-radius: 12px;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-columns"><path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18"></path></svg>
+                                </div>
+                                <h6 class="text-uppercase fw-bold mb-2" style="color: #0f172a; font-size: 0.8rem; letter-spacing: 1.5px;">Docas</h6>
+                                <h3 class="fw-bolder mb-2" style="color: #0f172a; font-size: 2.2rem;">12 unidades</h3>
+                                <p class="text-muted mb-0" style="font-size: 0.9rem;">Para carga e descarga</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="diferenciais" class="py-0" style="background-color: #f8f9fa;">
+            <div class="container py-4">
+                <div class="text-center mb-5" data-aos="fade-in">
+                    <h2 class="fw-bold" style="color: #333;">Por que escolher a <span style="color: #FF6600;">NovaRota</span>?</h2>
+                    <p class="text-muted">Compromisso, segurança e tecnologia em cada entrega.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100 border-0 shadow-sm card-novarota">
+                            <div class="card-body text-center p-4">
+                                <img width="64" height="64" src="https://img.icons8.com/liquid-glass-color/64/lock-2.png" alt="Imagem de um cadeado"/>
+                                <h5 class="card-title fw-bold">Segurança Garantida</h5>
+                                <p class="card-text text-muted" style="font-size: 0.9rem;">Sua carga protegida e rigorosamente monitorada, do embarque até o destino final.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100 border-0 shadow-sm card-novarota">
+                            <div class="card-body text-center p-4">
+                                <img width="50" height="50" src="https://img.icons8.com/ios/50/hotline.png" alt="Imagem de um telefone"/>
+                                <h5 class="card-title fw-bold">Atendimento 24h</h5>
+                                <p class="card-text text-muted" style="font-size: 0.9rem;">Equipe dedicada e pronta para te atender a qualquer momento, todos os dias da semana.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100 border-0 shadow-sm card-novarota">
+                            <div class="card-body text-center p-4">
+                                <img width="48" height="48" src="https://img.icons8.com/fluency/48/track-order.png" alt="Imagem de uma rota"/>
+                                <h5 class="card-title fw-bold">Tecnologia de Rastreio</h5>
+                                <p class="card-text text-muted" style="font-size: 0.9rem;">Acompanhe sua mercadoria em tempo real com nosso sistema de rastreamento de ponta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                        <div class="card h-100 border-0 shadow-sm card-novarota">
+                            <div class="card-body text-center p-4">
+                                <img width="50" height="50" src="https://img.icons8.com/ios/50/in-transit--v1.png" alt="Imagem de um Caminhão"/>
+                                <h5 class="card-title fw-bold">Frota Moderna</h5>
+                                <p class="card-text text-muted" style="font-size: 0.9rem;">Veículos novos e revisados, garantindo a eficiência e a pontualidade que seu negócio exige.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="py-5">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up">
+                    <h2 class="fw-bold" style="color: #333;">Nossos <span style="color: #FF6600;">Serviços</span></h2>
+                    <p class="text-muted">Soluções logísticas completas e inteligentes para o seu negócio.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card h-100 shadow-sm">
+                            <img src="imgs/foto_caminhoes.png" class="card-img-top" alt="Caminhão de transporte da NovaRota">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Transporte Rodoviário</h5>
+                                <p class="card-text">Frota moderna e rastreada 24 horas para garantir que sua carga chegue ao destino com total segurança, eficiência e pontualidade em todo o território.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card h-100 shadow-sm">
+                            <img src="imgs/foto_dos_galpoes.png" class="card-img-top" alt="Interior de um armazém logístico">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Armazenagem</h5>
+                                <p class="card-text">Estrutura completa e estrategicamente localizada para o armazenamento seguro e a gestão eficiente do seu estoque, com controle de temperatura e segurança 24h.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card h-100 shadow-sm">
+                            <img src="imgs/foto_de_um_homem.png" class="card-img-top" alt="Entregador com pacotes">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Carga Expressa</h5>
+                                <p class="card-text">Soluções ágeis para entregas urgentes, priorizando a velocidade para que seus compromissos sejam cumpridos sem abrir mão do cuidado com os seus produtos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" style="background-color: #f8f9fa;">
+            <div class="container">
+                <h3 class="text-center mb-4" style="color: #FF6600;" data-aos="fade-in">Conheça a Nossa Gestão</h3>
+                <div class="equipe-container">
+                    <div class="equipe-card shadow" data-aos="fade-up" data-aos-delay="1400">
+                        <div class="equipe-foto">
+                            <img src="imgs/foto_do_gerente.svg" alt="Gerente da NovaRota">
+                        </div>
+                        <div class="equipe-texto">
+                            <h5>João Silva</h5>
+                            <p class="mb-0 text-white-50">"A NovaRota nasceu do desejo de fazer diferente. Mais do que transportar cargas, nosso compromisso sempre foi encurtar distâncias e entregar a parceria estratégica que nossos clientes precisam para crescer."<br>— Augusto Silva, Fundador e CEO</p>
+                        </div>
+                    </div>
+                    <div class="equipe-card shadow" data-aos="fade-up"  data-aos-delay="1400">
+                        <div class="equipe-foto">
+                            <img src="imgs/imagem_gerente_logistica.png" alt="Gestora da NovaRota">
+                        </div>
+                        <div class="equipe-texto">
+                            <h5>Lívia Pereira</h5>
+                            <p class="mb-0 text-white-50">"Minha missão diária é garantir que a engrenagem da NovaRota funcione com perfeição. Otimizamos rotas, monitoramos processos em tempo real e trabalhamos incansavelmente..."<br>— Lívia Pereira, Gestora de Logística</p>
+                        </div>
+                    </div>
+                    <div class="equipe-card shadow" data-aos="fade-up" data-aos-delay="1400">
+                        <div class="equipe-foto">
+                            <img src="imgs/Gestor_Financeiro.png" alt="Gestor Financeiro da NovaRota">
+                        </div>
+                        <div class="equipe-texto">
+                            <h5>Eduardo Alencar</h5>
+                            <p class="mb-0 text-white-50">"Minha responsabilidade é garantir o crescimento sustentável da NovaRota. Com uma gestão rigorosa e transparente, conseguimos investir continuamente em nossa frota..."<br>— Eduardo Alencar, Gestor Financeiro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+
+        <section class="py-5">
+    <div class="container">
+        <h3 class="text-center mb-4" style="color: #FF6600;" data-aos="fade-in">Nossos Fornecedores e Parceiros</h3>
+        
+        <div class="row g-4">
+            
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="fornecedor-card shadow-sm p-3 h-100 rounded" style="background-color: #fff;" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="fornecedor-logo text-center mb-3">
+                        <img src="imgs/fornecedor_1.png" alt="Foto da logo do Fornecedor 1" class="img-fluid">
+                    </div>
+                    <div class="fornecedor-texto text-center">
+                        <h6 class="fw-bold mb-1" style="color: #FF6600;">Conecta Fornecedor</h6>
+                        <p class="mb-0 small">Fornecimento de softwares de rastreamento de frota e gestão de armazéns 24h.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="fornecedor-card shadow-sm p-3 h-100 rounded" style="background-color: #fff;" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="fornecedor-logo text-center mb-3">
+                        <img src="imgs/fornecedor_2.png" alt="Foto da logo do Fornecedor 2" class="img-fluid">
+                    </div>
+                    <div class="fornecedor-texto text-center">
+                        <h6 class="fw-bold mb-1" style="color: #FF6600;">Conecta Fornecedor</h6>
+                        <p class="mb-0 small">Nossa principal parceira para manutenção preventiva e peças originais para a frota.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="fornecedor-card shadow-sm p-3 h-100 rounded" style="background-color: #fff;" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="fornecedor-logo text-center mb-3">
+                        <img src="imgs/fornecedor_3.png" alt="Foto da logo do Fornecedor 3" class="img-fluid">
+                    </div>
+                    <div class="fornecedor-texto text-center">
+                        <h6 class="fw-bold mb-1" style="color: #FF6600;">Conecta Fornecedor</h6>
+                        <p class="mb-0 small">Garante a segurança total de todas as cargas transportadas em território nacional.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="fornecedor-card shadow-sm p-3 h-100 rounded" style="background-color: #fff;" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="fornecedor-logo text-center mb-3">
+                        <img src="imgs/Fornecedor_4.png" alt="Fornecedor 4" class="img-fluid">
+                    </div>
+                    <div class="fornecedor-texto text-center">
+                        <h6 class="fw-bold mb-1" style="color: #FF6600;">Conecta Fornecedor</h6>
+                        <p class="mb-0 small">Parceiro logístico integrado para expansão rápida e otimização das nossas rotas.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <section id="localizacao" class="py-5" style="background-color: #ffffff;">
+            <div class="container py-4">
+                <div class="text-center mb-4" data-aos="fade-up">
+                    <h6 class="fw-bold text-uppercase mb-2" style="color: #FF6600; letter-spacing: 2px; font-size: 0.85rem;">
+                        Localização
+                    </h6>
+                    <h2 class="fw-bolder mb-3" style="color: #0b1c2d; font-size: 2.5rem;">
+                        Onde estamos
+                    </h2>
+                    <div class="d-flex justify-content-center align-items-center text-muted" style="font-size: 1.1rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="#FF6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        Vila Velha, ES — Fácil acesso às principais vias
+                    </div>
+                </div>
+
+                <div class="position-relative mx-auto shadow-sm" style="max-width: 1000px; border-radius: 16px; overflow: hidden;" data-aos="zoom-in" data-aos-duration="1000">
+                    <a href="https://maps.google.com/?q=Vila+Velha,+ES" target="_blank" class="btn btn-white shadow-sm position-absolute d-flex align-items-center gap-2" style="top: 15px; left: 15px; z-index: 10; font-weight: bold; color: #0b5ed7; background-color: #fff; border-radius: 8px; padding: 8px 16px;">
+                        Abrir no Maps
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V11.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/><path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/></svg>
+                    </a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d478581.366210161!2d-40.70415789746769!3d-20.427499666905305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb817b2995d6bf1%3A0xf69aa51e4ff904b1!2sVila%20Velha%2C%20ES!5e0!3m2!1spt-BR!2sbr!4v1776013824168!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 text-center" style="background-color: #ffffff; overflow-x: hidden;">
+            <div class="container py-4">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <h2 class="fw-bold mb-4" style="color: #333; font-size: 2rem;" data-aos="fade-up">
+                            Agende uma visita e leve <br> a sua operação para o <br> <span style="color: #FF6600;">próximo nível.</span>
+                        </h2>
+                        
+                        <div class="p-3" data-aos="zoom-in" data-aos-delay="200">
+                            <a href="https://wa.me/55999999999" target="_blank" class="btn btn-whatsapp d-inline-flex align-items-center justify-content-center gap-2 shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg>
+                                Falar no WhatsApp agora
+                            </a>
+                        </div>
+                        
+                        <p class="text-muted mt-3" style="font-size: 0.9rem;" data-aos="fade-up" data-aos-delay="300">Resposta em até 2h durante horário comercial</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="py-5" style="background-color: #f8f9fa;"> 
+            <div class="container">
+                <h2 class="text-center mb-4" data-aos="fade-up">Fale Conosco</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8" data-aos="fade-up" data-aos-delay="150">
+
+<form id="formWhatsApp" class="text-start">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Nome Completo</label>
+        <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+    </div>
+    <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="mensagem" rows="4" placeholder="Como podemos ajudar?" required></textarea>
+    </div>
+    
+    <div class="form-check mb-4">
+        <input class="form-check-input" type="checkbox" value="" id="termosLgpd" required>
+        <label class="form-check-label text-muted" for="termosLgpd" style="font-size: 0.85rem;">
+            Concordo com a <a href="#privacidade" class="text-decoration-none" style="color: #FF6600;">Política de Privacidade</a> e aceito que meus dados sejam usados para o retorno do contato.
+        </label>
+    </div>
+
+    <button type="submit" class="btn w-100 fw-bold text-white shadow-sm" style="background-color: #FF6600; padding: 12px; border-radius: 8px;">
+        Enviar via WhatsApp
+    </button>
+</div>
+</form>
+</div>
+                </div>
+            </div>
+        </section>
+
+    </main> 
+
+
+   <footer class="text-white pt-5 pb-3" style="background-color: #212529;">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-start">
+            <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 fw-bold" style="color: #FF6600;">NovaRota</h5>
+                <p>Soluções logísticas inteligentes e eficiência operacional para o seu negócio. Tradição e confiança em cada entrega.</p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 fw-bold" style="color: #FF6600;">Navegação</h5>
+                <p><a href="#" class="text-white text-decoration-none">Início</a></p>
+                <p><a href="#sobrenos" class="text-white text-decoration-none">Quem somos</a></p>
+                <p><a href="#servicos" class="text-white text-decoration-none">Serviços</a></p>
+                <p><a href="#contato" class="text-white text-decoration-none">Contato</a></p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 fw-bold" style="color: #FF6600;">Contato</h5>
+                <p>Vila Velha, ES - Brasil</p>
+                <p>seuemail@email.com</p>
+                <p>(99) 99999-9999</p>
+            </div>
+        </div>
+
+        <hr class="mb-4" style="border-color: #555;">
+
+        <div class="row align-items-center text-center">
+            <div class="col-12">
+                <div class="p-3 mb-4 mx-auto" style="max-width: 800px; background-color: rgba(255, 102, 0, 0.05); border: 1px dashed #FF6600; border-radius: 12px;">
+                    <p class="mb-0 fw-bold" style="color: #FF6600; font-size: 0.9rem;">
+                        <i class="bi bi-info-circle-fill me-2"></i> 
+                        PROJETO ACADÊMICO: Este site foi desenvolvido para fins de portfólio. 
+                        A NovaRota é uma empresa fictícia e as informações aqui contidas são meramente ilustrativas.
+                    </p>
+                </div>
+
+                <p class="mb-0 opacity-75">© 2026 NovaRota Logística. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <div id="cookieBanner" class="position-fixed bottom-0 w-100 p-3 shadow-lg" style="background-color: #1a1e21; z-index: 10000; display: none; border-top: 2px solid #FF6600;">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+        <p class="text-white mb-3 mb-md-0" style="font-size: 0.9rem;">
+            Usamos cookies e outras tecnologias para garantir que você tenha a melhor experiência no nosso site. Ao continuar navegando, você concorda com a nossa <a href="#privacidade" style="color: #FF6600; text-decoration: none; font-weight: bold;">Política de Privacidade</a>.
+        </p>
+        <button id="aceitarCookies" class="btn fw-bold px-4 flex-shrink-0" style="background-color: #FF6600; color: white; border-radius: 30px;">
+            Aceitar e Fechar
+        </button>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const cookieBanner = document.getElementById("cookieBanner");
+        const btnAceitar = document.getElementById("aceitarCookies");
+
+      
+        if (!localStorage.getItem("cookiesLgpdAceitos")) {
+            
+            setTimeout(() => {
+                cookieBanner.style.display = "block";
+            }, 1000);
+        }
+
+     
+        btnAceitar.addEventListener("click", function() {
+        
+            localStorage.setItem("cookiesLgpdAceitos", "true");
+            
+            cookieBanner.style.display = "none";
+        });
+    });
+</script>
+
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        const meuFormulario = document.getElementById('formWhatsApp');
+        
+       
+        if (meuFormulario) {
+            meuFormulario.addEventListener('submit', function(event) {
+                
+                
+                event.preventDefault();
+
+                
+                const nome = document.getElementById('nome').value;
+                const email = document.getElementById('email').value;
+                const mensagem = document.getElementById('mensagem').value;
+
+                
+                const numeroWhatsApp = "559999999"; 
+                const texto = `Olá! Vim pelo site da Nova Rota Logística e Transporte de Carga Expressa e gostaria de atendimento.%0A%0A*Nome:* ${nome}%0A*E-mail:* ${email}%0A*Mensagem:* ${mensagem}`;
+                const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${texto}`;
+
+              
+                window.open(linkWhatsApp, '_blank');
+                
+               
+                meuFormulario.reset();
+            });
+        }
+    });
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+       
+        AOS.init({
+            duration: 90, 
+            once: true, 
+            offset: 100 
+        });
+    </script>
+</body>
+</html>
