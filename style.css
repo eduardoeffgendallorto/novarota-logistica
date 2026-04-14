@@ -1,25 +1,34 @@
+
 *{
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-y: auto;
+ 
 }
-
 html, body {
     overflow-x: hidden; 
 }
-
-
+main {
+    margin-top: 280px; 
+}
+@media (min-width: 992px) {
+    main {
+        margin-top: 170px;
+    }
+}
+.card-img-top {
+    aspect-ratio: 16 / 9; 
+    object-fit: cover; 
+    width: 100%;
+    background-color: #f8f9fa; 
+}
 .navbar-nav .nav-link {
     transition: color 0.3s ease;
 }
-
-
 .navbar-nav .nav-link:hover {
     color: #FF6600 !important; 
 }
-
 .numeros {
 display: flex;
 gap: 20px;
@@ -28,29 +37,41 @@ justify-content: center;
 height: 50px;
 background-color: #d88c00;
 }
-
 .numeros p {
     margin: 0;
 }
-
+.conheca {
+    color: #ffffff;
+   -webkit-text-stroke: 0.5px #ffffff;
+}
+.texto-destaque {
+    color: #ff7b00;
+ 
+    -webkit-text-stroke: 0.5px #ff7b00;
+}
+.resultados {
+      color: #ff7b00; 
+    text-shadow: 0 0 10px rgba(255, 123, 0, 0.5); 
+    -webkit-text-stroke: 0.5px #ff7b00;
+}
+.estrategica {
+     color: #ff7b00; 
+  
+    -webkit-text-stroke: 0.5px #ff7b00;
+}
 .btn-novarota {
     background-color: #FF6600;
     color: #ffffff;
     border: none;
     font-weight: bold;
-    
     transition: all 0.3s ease; 
 }
-
-
 .btn-novarota:hover {
     background-color: #CC5200; 
     color: #ffffff;
-    transform: translateY(-3px) scale(1.02); 
-    box-shadow: 0px 8px 15px rgba(255, 102, 0, 0.4);
+    box-shadow: 0px 5px 15px rgba(255, 102, 0, 0.4); 
+    /* Removemos a linha do 'transform' para o botão não crescer e bugar a barra lateral */
 }
-
-
 .equipe-container {
     display: flex;
     flex-wrap: wrap; 
@@ -60,8 +81,6 @@ background-color: #d88c00;
     justify-content: center;
     align-items: stretch; 
 }
-
-
 .equipe-card {
     display: flex;
     width: 250px; 
@@ -72,20 +91,15 @@ background-color: #d88c00;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-
 .equipe-card:hover {
     width: 550px; 
 }
-
-
 .equipe-foto {
     width: 250px;
     min-width: 250px; 
     height: 100%;
     flex-shrink: 0; 
 }
-
 .equipe-foto img {
     width: 100%;
     height: 100%;
@@ -94,8 +108,6 @@ background-color: #d88c00;
     object-position: top center; 
     transition: all 0.6s ease-in-out;
 }
-
-
 .equipe-texto {
     width: 300px; 
     min-width: 300px; 
@@ -108,42 +120,34 @@ background-color: #d88c00;
     transition: opacity 0.6s ease-in-out; 
     transition-delay: 0.1s; 
 }
-
-
 .equipe-texto p:last-child {
     margin-bottom: 0;
     font-size: 0.95rem; 
 }
-
 .equipe-card:hover .equipe-texto {
     opacity: 1;
 }
-
-
 @media (max-width: 992px) {
     .equipe-card {
         width: 100%;
         max-width: 400px;
         flex-direction: column;
-    }
+}
     .equipe-card:hover {
         width: 100%; 
-    }
+}
     .equipe-foto {
         width: 100%;
         min-width: 100%;
         height: 350px;
-    }
+}
     .equipe-texto {
         width: 100%;
         min-width: 100%;
         opacity: 1; 
         height: auto;
-    }
 }
-
-
-
+}
 .fornecedores-container {
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +155,6 @@ background-color: #d88c00;
     justify-content: center;
     align-items: flex-start; 
 }
-
 
 .fornecedor-card {
     width: 260px;
@@ -164,14 +167,10 @@ background-color: #d88c00;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
-
-
 .fornecedor-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
 }
-
-
 .fornecedor-logo {
     height: 140px; 
     padding: 0; 
@@ -181,14 +180,11 @@ background-color: #d88c00;
     background-color: #ffffff;
     overflow: hidden; 
 }
-
 .fornecedor-logo img {
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
 }
-
-
 .fornecedor-texto {
     max-height: 0; 
     opacity: 0;
@@ -197,15 +193,11 @@ background-color: #d88c00;
     color: white;
     transition: all 0.4s ease-in-out; 
 }
-
-
 .fornecedor-card:hover .fornecedor-texto {
     max-height: 200px; 
     opacity: 1;
     padding: 20px; 
 }
-
-
 @media (max-width: 768px) {
     .fornecedor-card {
         width: 100%;
@@ -220,8 +212,6 @@ background-color: #d88c00;
         transform: none; 
     }
 }
-
-
 .btn-whatsapp {
     background-color: #25D366;
     color: white;
@@ -231,10 +221,8 @@ background-color: #d88c00;
     font-size: 1.2rem;
     transition: all 0.4s ease-in-out; 
 }
-
 .btn-whatsapp:hover {
-    transform: scale(1.05); 
-    
-    box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3) !important; 
+   
+    box-shadow: 0 10px 20px rgba(37, 211, 102, 0.4) !important; 
+    transform: translateY(-2px); 
 }
-
